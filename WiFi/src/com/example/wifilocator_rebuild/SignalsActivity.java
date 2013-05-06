@@ -116,6 +116,7 @@ public class SignalsActivity extends Activity{
         		}
         	}  
         });
+        	//above code block should be in setListView block (giang)
 	}
 	
 	public void compare(ArrayList<Signal> source, ArrayList<Signal> des) { 
@@ -130,7 +131,7 @@ public class SignalsActivity extends Activity{
     			}
     		}
     	}
-    }
+    } // tab before this curly brace (giang)
 	
 	public String locationDeterminant(ArrayList<Signal> currentListSignals) {
 		/*
