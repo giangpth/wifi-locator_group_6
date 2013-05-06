@@ -72,7 +72,7 @@ public class LocationsActivity extends Activity {
         		clickedLocation=(Location)lv1.getItemAtPosition(position);
         		setListView(clickedLocation);
         	}
-		});
+		});//indentation (giang)
 	}
 	
 	public void setListViewEdit (Location currentChoice) {
@@ -92,7 +92,7 @@ public class LocationsActivity extends Activity {
         		clickedLocation=(Location)lv1.getItemAtPosition(position);
         		setListView((Location)clickedLocation.getParent());
         	}
-		});
+		});//indentation (giang)
 	}
 	
 	
@@ -181,3 +181,4 @@ public class LocationsActivity extends Activity {
 	
 	
 }
+//need more explanation (giang)
