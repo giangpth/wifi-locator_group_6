@@ -41,7 +41,8 @@ public class StartUp extends Activity {
 			
 		timeCounter = 0; 
         circleProgressBar = (ProgressBar) findViewById(R.id.progressBar1); 
-
+        //which block does above statement belong to??? (giang)
+	
         //---do some work in background thread--- 
         new Thread(new Runnable() 
         { 
@@ -73,6 +74,7 @@ public class StartUp extends Activity {
  				catch(ClassNotFoundException e){
  					e.printStackTrace();
  				}
+ 		 //put the catch block be aligned with the try block (giang)
             } 
 
              //---do some long running work here--- 
@@ -100,7 +102,6 @@ public class StartUp extends Activity {
 		//ourSong.release();
 		finish();
 	}
-	
-	
+	//so hard to determine the distinct code block (giang)
 	
 }
